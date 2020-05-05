@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(express.json()); //use express json for rest api json requests
 app.use(cors())
 const PORT = 4444; //assign PORT to 4444
-console.log("ebubekir")
+console.log("ebubekir");
 
 // controller imports
 const homeController = require('./controllers/home');
